@@ -1,0 +1,1277 @@
+[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "unit": "%",
+        "name": "Net Revenue Retention (NRR)",
+        "fundscreening_id": "Net_Revenue_Retention_Criterion",
+        "schema_label": "InvestmentCriterion",
+        "threshold": 108,
+        "criterion_type": "Financial",
+        "category": "Retention",
+        "fundscreening_managed": true,
+        "mandatory": true,
+        "operator": ">"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "unit": "%",
+        "name": "EBITDA Margin",
+        "description": "Credible path to >15% within 24 months",
+        "fundscreening_id": "EBITDA_Margin_Criterion",
+        "schema_label": "InvestmentCriterion",
+        "threshold": 8,
+        "criterion_type": "Financial",
+        "category": "Profitability",
+        "fundscreening_managed": true,
+        "mandatory": true,
+        "operator": ">"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 2,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "name": "Rule of 40",
+        "fundscreening_id": "Rule_of_40_Criterion",
+        "schema_label": "InvestmentCriterion",
+        "threshold": 40,
+        "criterion_type": "Financial",
+        "category": "Growth + Profitability",
+        "fundscreening_managed": true,
+        "mandatory": true,
+        "operator": ">="
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:2"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "unit": "%",
+        "name": "Gross Profit Margin",
+        "description": ">70% preferred for pure-play SaaS",
+        "fundscreening_id": "Gross_Profit_Margin_Criterion",
+        "schema_label": "InvestmentCriterion",
+        "threshold": 65,
+        "criterion_type": "Financial",
+        "category": "Profitability",
+        "fundscreening_managed": true,
+        "mandatory": true,
+        "operator": ">"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:3"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "name": "Net Profit",
+        "description": "Credible 18-month path; not compulsory at entry for high-growth AI/infrastructure assets",
+        "fundscreening_id": "Net_Profit_Criterion",
+        "schema_label": "InvestmentCriterion",
+        "criterion_type": "Financial",
+        "category": "Profitability",
+        "fundscreening_managed": true,
+        "mandatory": true,
+        "operator": "Positive or credible path"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:4"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "unit": "%",
+        "name": "ROE",
+        "fundscreening_id": "ROE_Criterion",
+        "schema_label": "InvestmentCriterion",
+        "threshold": 8,
+        "criterion_type": "Financial",
+        "category": "Profitability",
+        "fundscreening_managed": true,
+        "mandatory": true,
+        "operator": ">"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "name": "Debt-to-Equity",
+        "fundscreening_id": "Debt_to_Equity_Criterion",
+        "schema_label": "InvestmentCriterion",
+        "threshold": 0.55,
+        "criterion_type": "Financial",
+        "category": "Leverage",
+        "fundscreening_managed": true,
+        "mandatory": true,
+        "operator": "<"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:6"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "unit": "x",
+        "name": "Interest Coverage",
+        "fundscreening_id": "Interest_Coverage_Criterion",
+        "schema_label": "InvestmentCriterion",
+        "threshold": 4.0,
+        "criterion_type": "Financial",
+        "category": "Leverage",
+        "fundscreening_managed": true,
+        "mandatory": true,
+        "operator": ">"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "unit": "%",
+        "name": "Free Cash Flow Margin",
+        "description": "Break-even trajectory",
+        "fundscreening_id": "Free_Cash_Flow_Margin_Criterion",
+        "schema_label": "InvestmentCriterion",
+        "threshold": 5,
+        "criterion_type": "Financial",
+        "category": "Cash Flow",
+        "fundscreening_managed": true,
+        "mandatory": true,
+        "operator": ">"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:8"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "unit": "%",
+        "name": "Gross customer/logo retention",
+        "fundscreening_id": "Gross_Customer_Retention_Criterion",
+        "schema_label": "InvestmentCriterion",
+        "threshold": 90,
+        "criterion_type": "Customer Retention",
+        "category": "Retention",
+        "fundscreening_managed": true,
+        "mandatory": true,
+        "operator": ">"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:9"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "unit": "Total Commitments",
+        "source_text": "Single position at cost ≤12% of Total Commitments",
+        "name": "Single position at cost",
+        "fundscreening_id": "Single_Position_Cost_Limit",
+        "schema_label": "InvestmentCriterion",
+        "threshold": "≤12%",
+        "criterion_type": "Concentration Limit",
+        "fundscreening_managed": true,
+        "mandatory": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:10"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "unit": "NAV",
+        "source_text": "Single position at fair value ≤18% of NAV, subject to IC review if exceeded",
+        "name": "Single position at fair value",
+        "fundscreening_id": "Single_Position_Fair_Value_Limit",
+        "schema_label": "InvestmentCriterion",
+        "threshold": "≤18%",
+        "criterion_type": "Concentration Limit",
+        "fundscreening_managed": true,
+        "mandatory": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:11"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "unit": "Total Commitments",
+        "source_text": "Non-US exposure ≤15% of Total Commitments",
+        "name": "Non-US exposure",
+        "fundscreening_id": "Non_US_Exposure_Limit",
+        "schema_label": "InvestmentCriterion",
+        "threshold": "≤15%",
+        "criterion_type": "Concentration Limit",
+        "fundscreening_managed": true,
+        "mandatory": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:12"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "unit": "Total Commitments",
+        "source_text": "Follow-on / reserve capital 35% of Total Commitments reserved",
+        "name": "Follow-on / reserve capital",
+        "fundscreening_id": "Follow_On_Reserve_Capital",
+        "schema_label": "InvestmentCriterion",
+        "threshold": "35%",
+        "criterion_type": "Capital Allocation",
+        "fundscreening_managed": true,
+        "mandatory": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:13"
+    }
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "source_text": "Minimum diversification No fewer than 15 portfolio companies at full deployment",
+        "name": "Minimum diversification",
+        "fundscreening_id": "Minimum_Diversification_Limit",
+        "schema_label": "InvestmentCriterion",
+        "threshold": "No fewer than 15 portfolio companies",
+        "criterion_type": "Portfolio Construction",
+        "fundscreening_managed": true,
+        "mandatory": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:14"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "RiskFactor"
+      ],
+      "properties": {
+        "severity": "Medium",
+        "source_text": "Exit strategy & liquidity planning The Fund targets a weighted-average holding period of 4–6 years. Exit routes are evaluated on an ongoing basis from Year 3.",
+        "name": "Exit strategy & liquidity planning",
+        "description": "Exit routes are evaluated on an ongoing basis from Year 3. Typical preference order: strategic sale to a larger technology acquirer; sponsor-to-sponsor secondary sale; IPO for assets exceeding approximately USD 750M enterprise value with sustained profitability; and structured recapitalization / dividend recapitalization where a full exit is not optimal.",
+        "fundscreening_id": "Exit_Strategy_Risk",
+        "schema_label": "RiskFactor",
+        "category": "Liquidity Risk",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:15"
+    }
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "company_stage": "Growth",
+        "employee_count": 428,
+        "products_services": "Enterprise workflows",
+        "operating_geographies": "United States; customer base also includes Canada and the United Kingdom",
+        "market_position": "Enterprise customers",
+        "sub_sector": "Applied AI / Agentic Workflow Software",
+        "strategic_positioning": "Management's response to commercial risk includes deeper workflow-specific integrations, accumulated domain data, and measurable customer ROI.",
+        "description": "Primary customer verticals include financial services, insurance, and industrial services.",
+        "fundscreening_id": "Northstar_Workflow_Systems_Inc",
+        "industry": "Enterprise & vertical software / SaaS",
+        "competitive_advantage": "Workflow depth, auditability, and customer-system integration rather than generic AI functionality",
+        "headquarters": "Austin, Texas, United States",
+        "ownership": "34% fully diluted equity",
+        "founding_year": 2018,
+        "name": "Northstar Workflow Systems",
+        "schema_label": "Company",
+        "legal_name": "Northstar Workflow Systems, Inc.",
+        "customers": "612 customer organizations; 184 enterprise customers with >$100K ARR",
+        "business_model": "Subscription SaaS plus implementation and usage-based workflow services",
+        "fundscreening_managed": true,
+        "sector": "Financial services; Insurance; Industrial services"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:16"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "ARR_77_9M",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "ARR_growth_28_7_percent",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:18"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "NRR_113_8_percent",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:19"
+    }
+  },
+  {
+    "n": {
+      "identity": 20,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Normalized_EBITDA_margin_12_6_percent",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:20"
+    }
+  },
+  {
+    "n": {
+      "identity": 21,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Rule_of_40_41_3",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:21"
+    }
+  },
+  {
+    "n": {
+      "identity": 22,
+      "labels": [
+        "RiskFactor"
+      ],
+      "properties": {
+        "severity": "High",
+        "source_text": "AWS is the primary cloud provider, and the screening graph records AWS concentration at 78%.",
+        "name": "AWS concentration",
+        "description": "78% AWS concentration",
+        "fundscreening_id": "AWS_concentration_78_percent",
+        "schema_label": "RiskFactor",
+        "category": "Cloud dependency",
+        "fundscreening_managed": true,
+        "status": "Active"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:22"
+    }
+  },
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "RiskFactor"
+      ],
+      "properties": {
+        "severity": "Moderate",
+        "name": "Customer concentration",
+        "description": "Top 10 customers concentration",
+        "fundscreening_id": "Customer_concentration_31_6_percent",
+        "schema_label": "RiskFactor",
+        "category": "Concentration risk",
+        "fundscreening_managed": true,
+        "status": "Verified"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:23"
+    }
+  },
+  {
+    "n": {
+      "identity": 24,
+      "labels": [
+        "RiskFactor"
+      ],
+      "properties": {
+        "severity": "Unknown",
+        "source_text": "AI provider concentration is also recorded as a risk factor. The product uses multiple model providers and a provider-abstraction layer intended to reduce single-model dependency.",
+        "name": "AI provider concentration",
+        "description": "Risk factor; no quantified value in graph",
+        "fundscreening_id": "AI_provider_concentration",
+        "schema_label": "RiskFactor",
+        "category": "Technology dependency",
+        "fundscreening_managed": true,
+        "status": "Active"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:24"
+    }
+  },
+  {
+    "n": {
+      "identity": 25,
+      "labels": [
+        "RiskFactor"
+      ],
+      "properties": {
+        "severity": "High",
+        "name": "Key-person risk",
+        "description": "CEO/CTO influence on product and customers",
+        "fundscreening_id": "Key_person_risk_CEO_CTO",
+        "schema_label": "RiskFactor",
+        "category": "Management risk",
+        "fundscreening_managed": true,
+        "status": "Active"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:25"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "northstar_workflow_systems_fy2026e_arr",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:26"
+    }
+  },
+  {
+    "n": {
+      "identity": 27,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "northstar_workflow_systems_arr_growth",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:27"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "northstar_workflow_systems_adj_ebitda_margin",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:28"
+    }
+  },
+  {
+    "n": {
+      "identity": 29,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "northstar_workflow_systems_nrr",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:29"
+    }
+  },
+  {
+    "n": {
+      "identity": 30,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "northstar_workflow_systems_gross_logo_retention",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:30"
+    }
+  },
+  {
+    "n": {
+      "identity": 31,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "northstar_workflow_systems_enterprise_value",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:31"
+    }
+  },
+  {
+    "n": {
+      "identity": 32,
+      "labels": [
+        "Deal"
+      ],
+      "properties": {
+        "transaction_status": "Preliminary acquisition discussion",
+        "funding_required": 95,
+        "deal_name": "Northstar Workflow Systems Growth Capital",
+        "deal_type": "Growth capital",
+        "fundscreening_id": "northstar_workflow_systems_primary_growth_capital",
+        "schema_label": "Deal",
+        "transaction_type": "Primary and secondary",
+        "fundscreening_managed": true,
+        "deal_rationale": "Accelerate enterprise sales, expand regulated workflows, and selectively acquire complementary workflow modules"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:32"
+    }
+  },
+  {
+    "n": {
+      "identity": 33,
+      "labels": [
+        "RiskFactor"
+      ],
+      "properties": {
+        "severity": "Moderate",
+        "source_text": "AWS concentration is 78%",
+        "name": "AWS concentration risk",
+        "description": "AWS concentration is 78%",
+        "fundscreening_id": "aws_concentration_risk",
+        "schema_label": "RiskFactor",
+        "category": "Technology dependency",
+        "fundscreening_managed": true,
+        "status": "Identified"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:33"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "RiskFactor"
+      ],
+      "properties": {
+        "severity": "Moderate",
+        "source_text": "AI provider concentration is identified as a risk factor without a quantified value",
+        "name": "AI provider concentration risk",
+        "description": "AI provider concentration is identified as a risk factor without a quantified value",
+        "fundscreening_id": "ai_provider_concentration_risk",
+        "schema_label": "RiskFactor",
+        "category": "Technology dependency",
+        "fundscreening_managed": true,
+        "status": "Identified"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:34"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Market"
+      ],
+      "properties": {
+        "key_competitors": "Generic RPA, Horizontal AI tools, Vertical legacy software",
+        "geography": "United States",
+        "market_size": "$5.4B TAM, $1.7B serviceable market, $410M near-term SAM",
+        "name": "Workflow automation market in the United States",
+        "competitive_intensity": "High workflow depth, high AI-assisted automation, high auditability/controls, high integration breadth",
+        "fundscreening_id": "market_workflow_automation_us",
+        "schema_label": "Market",
+        "fundscreening_managed": true,
+        "market_type": "Vertical SaaS",
+        "trends": "Recurring SaaS model, industry templates",
+        "barriers_to_entry": "Operating-complexity, technology-readiness, estimated annual software-spend filters"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:35"
+    }
+  },
+  {
+    "n": {
+      "identity": 36,
+      "labels": [
+        "Deal"
+      ],
+      "properties": {
+        "entry_valuation": "$805M midpoint enterprise value",
+        "funding_required": "$95M",
+        "deal_name": "Primary growth capital for Northstar Workflow Systems",
+        "deal_type": "Equity investment",
+        "enterprise_value": "$760M–$850M",
+        "fundscreening_id": "deal_growth_capital_northstar",
+        "schema_label": "Deal",
+        "transaction_type": "Primary growth capital + limited secondary component",
+        "fundscreening_managed": true,
+        "deal_rationale": "The proposed capital is intended to fund sales capacity, product development and selective acquisitions while providing liquidity to early shareholders."
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:36"
+    }
+  },
+  {
+    "n": {
+      "identity": 37,
+      "labels": [
+        "RiskFactor"
+      ],
+      "properties": {
+        "severity": "Not quantified",
+        "name": "AWS and AI provider concentration",
+        "description": "AWS concentration is 78%, and AI provider concentration is identified as a risk factor without a quantified value.",
+        "fundscreening_id": "risk_aws_ai_dependency",
+        "schema_label": "RiskFactor",
+        "category": "Technology dependency",
+        "fundscreening_managed": true,
+        "status": "Identified"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:37"
+    }
+  },
+  {
+    "n": {
+      "identity": 38,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "financial_metric_arr_2026",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:38"
+    }
+  },
+  {
+    "n": {
+      "identity": 39,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "financial_metric_rule_of_40_2026",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:39"
+    }
+  },
+  {
+    "n": {
+      "identity": 40,
+      "labels": [
+        "Deal"
+      ],
+      "properties": {
+        "entry_valuation": 95,
+        "deal_name": "Primary growth capital",
+        "deal_type": "Equity investment",
+        "fundscreening_id": "Primary_growth_capital_2026",
+        "schema_label": "Deal",
+        "transaction_type": "Growth capital",
+        "fundscreening_managed": true,
+        "deal_rationale": "Fund sales capacity, product development, selective acquisitions, and provide liquidity to early shareholders"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:40"
+    }
+  },
+  {
+    "n": {
+      "identity": 41,
+      "labels": [
+        "RiskFactor"
+      ],
+      "properties": {
+        "severity": "Monitor",
+        "source_text": "Two of the top ten customers have renewal decisions concentrated within the same two-quarter period in 2027. Neither is individually above 5% of ARR, but the combined timing creates potential temporary volatility risk.",
+        "name": "Customer concentration risk",
+        "description": "Two of the top ten customers have renewal decisions concentrated within the same two-quarter period in 2027, creating potential temporary volatility risk.",
+        "fundscreening_id": "Customer_concentration_risk_2027",
+        "schema_label": "RiskFactor",
+        "category": "Customer concentration",
+        "fundscreening_managed": true,
+        "status": "Active"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:41"
+    }
+  },
+  {
+    "n": {
+      "identity": 42,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "ARR_metric",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:42"
+    }
+  },
+  {
+    "n": {
+      "identity": 43,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "ARR_growth_metric",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:43"
+    }
+  },
+  {
+    "n": {
+      "identity": 44,
+      "labels": [
+        "InvestmentFund"
+      ],
+      "properties": {
+        "investment_stage": "profitable or near-profitable high-growth software businesses",
+        "fund_type": "growth-equity vehicle",
+        "ownership_preference": "significant minority and control positions",
+        "return_target": "Target net IRR: 18%–22%; Target net MOIC: 2.3x–2.8x",
+        "fundscreening_id": "Meridian_Fund_IV",
+        "exclusions": "Jurisdictions subject to OFAC sanctions or FATF high-risk designation",
+        "target_ticket_size": "USD 40M–USD 150M, with follow-on reserves",
+        "target_company_size": "capital-efficient, founder- or management-led companies",
+        "target_sector": "Technology — enterprise & vertical software, cloud infrastructure, applied AI/ML tooling",
+        "mandate_notes": "Binding operating framework for sourcing, diligence, structuring, monitoring and exit. Applies to transactions entering diligence on or after 01 July 2026; legacy positions remain subject to migration rules.",
+        "investment_thesis": "Value creation through go-to-market acceleration, pricing optimization, and selective M&A; support rather than aggressive cost restructuring",
+        "target_geography": "United States; headquartered or >70% of revenue generated in the US",
+        "name": "Meridian Fund IV",
+        "holding_period": "10 years + two 1-year GP extension options",
+        "schema_label": "InvestmentFund",
+        "strategy": "Minority and control positions in high-growth, profitable-at-scale software and technology-enabled services businesses",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:44"
+    }
+  },
+  {
+    "n": {
+      "identity": 45,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "source_text": "Primary geography: United States; headquartered or >70% of revenue generated in the US.",
+        "name": "Primary geography",
+        "description": "Headquartered or >70% of revenue generated in the US",
+        "fundscreening_id": "InvestmentCriterion_US_Geography",
+        "schema_label": "InvestmentCriterion",
+        "criterion_type": "geography",
+        "category": "mandatory",
+        "fundscreening_managed": true,
+        "mandatory": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:45"
+    }
+  },
+  {
+    "n": {
+      "identity": 46,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "source_text": "Excluded geographies: Jurisdictions subject to OFAC sanctions or FATF high-risk designation.",
+        "name": "Excluded geographies",
+        "description": "Jurisdictions subject to OFAC sanctions or FATF high-risk designation",
+        "exclusion": true,
+        "fundscreening_id": "InvestmentCriterion_Excluded_Geographies",
+        "schema_label": "InvestmentCriterion",
+        "criterion_type": "geography",
+        "category": "exclusion",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:46"
+    }
+  },
+  {
+    "n": {
+      "identity": 47,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "source_text": "Typical initial check: USD 40M–USD 150M, with follow-on reserves.",
+        "minimum_value": 40,
+        "description": "USD 40M–USD 150M, with follow-on reserves",
+        "fundscreening_id": "InvestmentCriterion_Ticket_Size",
+        "unit": "M",
+        "name": "Typical initial check",
+        "schema_label": "InvestmentCriterion",
+        "currency": "USD",
+        "maximum_value": 150,
+        "criterion_type": "ticket size",
+        "category": "preferred",
+        "fundscreening_managed": true,
+        "preferred": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:47"
+    }
+  },
+  {
+    "n": {
+      "identity": 48,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "source_text": "The following thresholds are non-negotiable minimums. Deal Teams must document each target’s position against every metric in the IC memorandum.",
+        "name": "Mandatory Financial Screening Criteria",
+        "description": "Baseline entry conditions applied before full diligence.",
+        "fundscreening_id": "Mandatory_Financial_Screening_Criteria",
+        "schema_label": "InvestmentCriterion",
+        "criterion_type": "Financial",
+        "fundscreening_managed": true,
+        "mandatory": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:48"
+    }
+  },
+  {
+    "n": {
+      "identity": 49,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "unit": "M",
+        "name": "Annual Recurring Revenue (ARR)",
+        "fundscreening_id": "ARR_Criterion",
+        "schema_label": "InvestmentCriterion",
+        "threshold": 45,
+        "currency": "USD",
+        "criterion_type": "Financial",
+        "category": "Revenue",
+        "fundscreening_managed": true,
+        "mandatory": true,
+        "operator": ">"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:49"
+    }
+  },
+  {
+    "n": {
+      "identity": 50,
+      "labels": [
+        "InvestmentCriterion"
+      ],
+      "properties": {
+        "unit": "%",
+        "name": "ARR Growth Rate (YoY)",
+        "fundscreening_id": "ARR_Growth_Rate_Criterion",
+        "schema_label": "InvestmentCriterion",
+        "threshold": 22,
+        "criterion_type": "Financial",
+        "category": "Growth",
+        "fundscreening_managed": true,
+        "mandatory": true,
+        "operator": ">"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:50"
+    }
+  },
+  {
+    "n": {
+      "identity": 51,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Rule_of_40_metric",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:51"
+    }
+  },
+  {
+    "n": {
+      "identity": 52,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Enterprise_Value_metric",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:52"
+    }
+  },
+  {
+    "n": {
+      "identity": 53,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Gross_logo_retention_metric",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:53"
+    }
+  },
+  {
+    "n": {
+      "identity": 54,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "EBITDA_margin_12_6_percent",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:54"
+    }
+  },
+  {
+    "n": {
+      "identity": 55,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Debt_to_equity_0_47x",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:55"
+    }
+  },
+  {
+    "n": {
+      "identity": 56,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Interest_coverage_5_7x",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:56"
+    }
+  },
+  {
+    "n": {
+      "identity": 57,
+      "labels": [
+        "AuditFinding"
+      ],
+      "properties": {
+        "severity": "medium",
+        "finding_id": "ARR_policy",
+        "source_text": "A formal ARR policy should specify activation date, cancellation treatment, usage components, acquired contracts and foreign-exchange treatment.",
+        "description": "A formal ARR policy should specify activation date, cancellation treatment, usage components, acquired contracts and foreign-exchange treatment.",
+        "fundscreening_id": "Audit_Finding_ARR_policy",
+        "schema_label": "AuditFinding",
+        "finding_type": "Revenue recognition",
+        "fundscreening_managed": true,
+        "status": "unresolved"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:57"
+    }
+  },
+  {
+    "n": {
+      "identity": 58,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Document_C_Northstar_Financial_Health_Audit_Cleaned_chunk_0002_FinancialMetric_001",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:58"
+    }
+  },
+  {
+    "n": {
+      "identity": 59,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Document_C_Northstar_Financial_Health_Audit_Cleaned_chunk_0002_FinancialMetric_002",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:59"
+    }
+  },
+  {
+    "n": {
+      "identity": 60,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Document_C_Northstar_Financial_Health_Audit_Cleaned_chunk_0002_FinancialMetric_003",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:60"
+    }
+  },
+  {
+    "n": {
+      "identity": 61,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Document_C_Northstar_Financial_Health_Audit_Cleaned_chunk_0002_FinancialMetric_004",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:61"
+    }
+  },
+  {
+    "n": {
+      "identity": 62,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Document_C_Northstar_Financial_Health_Audit_Cleaned_chunk_0002_FinancialMetric_005",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:62"
+    }
+  },
+  {
+    "n": {
+      "identity": 63,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Document_C_Northstar_Financial_Health_Audit_Cleaned_chunk_0002_FinancialMetric_006",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:63"
+    }
+  },
+  {
+    "n": {
+      "identity": 64,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Document_C_Northstar_Financial_Health_Audit_Cleaned_chunk_0002_FinancialMetric_007",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:64"
+    }
+  },
+  {
+    "n": {
+      "identity": 65,
+      "labels": [
+        "AuditFinding"
+      ],
+      "properties": {
+        "severity": "Moderate",
+        "finding_id": "NWS-FHA-2026-08",
+        "source_text": "The principal control improvement is to make ARR and revenue-quality policies explicit and consistently applied across subscription, implementation, usage and modified contracts.",
+        "description": "Principal control improvement is to make ARR and revenue-quality policies explicit and consistently applied.",
+        "fundscreening_id": "Document_C_Northstar_Financial_Health_Audit_Cleaned_chunk_0002_AuditFinding_001",
+        "schema_label": "AuditFinding",
+        "category": "Accounting policies",
+        "finding_type": "Revenue recognition",
+        "fundscreening_managed": true,
+        "status": "Pending"
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:65"
+    }
+  },
+  {
+    "n": {
+      "identity": 66,
+      "labels": [
+        "Company"
+      ],
+      "properties": {
+        "market_position": "Clears mandatory financial screen after normalization.",
+        "strategic_positioning": "Residual issues include earnings quality, customer renewal timing, cloud and AI-provider concentration, leverage treatment, restricted cash, and key-person dependence.",
+        "name": "Northstar",
+        "description": "Northstar remains suitable for preliminary Meridian screening after normalization.",
+        "fundscreening_id": "Northstar_Company",
+        "schema_label": "Company",
+        "fundscreening_managed": true,
+        "competitive_advantage": "Verified/normalized values rather than headline management metrics."
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:66"
+    }
+  },
+  {
+    "n": {
+      "identity": 67,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Northstar_ARR",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:67"
+    }
+  },
+  {
+    "n": {
+      "identity": 68,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Northstar_ARR_Growth",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:68"
+    }
+  },
+  {
+    "n": {
+      "identity": 69,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Northstar_NRR",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:69"
+    }
+  },
+  {
+    "n": {
+      "identity": 70,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Northstar_EBITDA_Margin",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:70"
+    }
+  },
+  {
+    "n": {
+      "identity": 71,
+      "labels": [
+        "FinancialMetric"
+      ],
+      "properties": {
+        "fundscreening_id": "Northstar_FCF_Margin",
+        "schema_label": "FinancialMetric",
+        "fundscreening_managed": true
+      },
+      "elementId": "4:0821dd97-deb1-4f8e-bb2b-aa840d503af1:71"
+    }
+  }
+]
